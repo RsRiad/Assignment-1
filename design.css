@@ -245,6 +245,7 @@
     background-color: #006A50;
     border: 0;
     width: 140px;
+    margin-bottom: 80px;
 }
 .t{
     border-color: rgb(188, 185, 185);
@@ -258,7 +259,7 @@
 }
 #input{
     margin-bottom: 30px;
-    width: 100%;
+    width: 70%;
     padding: 10px;
     font-size: 14px;
     border: 1px solid #d9d6d6;
@@ -279,89 +280,86 @@
 
 
 
-/*  */
-/*  */
-/*  */
-/* .bb {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* subscription */
+.subscription {
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+
   }
   
-  .donation-container {
-    background-color: #ffffff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .subscription-container {
+    /* display: flex; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 80px;
+    /* width: 618px;
+    height: 300px; */
+    /* margin-right: 64px; */
     text-align: center;
-    max-width: 400px;
-    width: 100%;
-  }
+    margin-bottom: 80px;
+}
   
-  .hh {
-    font-size: 24px;
+  .subscription-container h1 {
+    font-size: 28px;
     margin-bottom: 10px;
+    color: #222222;
   }
   
-  .pp {
+  .subscription-container {
     font-size: 14px;
     color: #555555;
     margin-bottom: 20px;
     line-height: 1.6;
+    padding-left: 300px;
+    padding-right: 300px;
   }
   
-  .donation-options {
+  .subscription-form {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 15px;
   }
   
-  .donation-button {
-    background-color: #f4f4f4;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
+  .subscription-input {
+    flex: 1;
     padding: 10px 15px;
     font-size: 14px;
-    cursor: pointer;
-    flex: 1;
-    margin: 0 5px;
-    transition: background-color 0.3s, border-color 0.3s;
+    /* border: 1px solid #cccccc; */
+    /* border-radius: 5px; */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    height: 30px;
+    /* color: #d9d6d6; */
+    /* text-align: center; */
   }
   
-  .donation-button.selected {
-    background-color: #d8f3dc;
-    border-color: #34a853;
-  }
-  
-  .donation-button:hover {
-    background-color: #e8e8e8;
-  }
-  
-  .donation-input {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .donate-now {
+  .subscription-button {
     background-color: #007b55;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    height: 50px;
+    font-size: 14px;
+    /* border-radius: 5px; */
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
-  .donate-now:hover {
+  .subscription-button:hover {
     background-color: #005c40;
-  } */
+  }
+  
+  .subscription-footer {
+    font-size: 12px;
+    color: #777777;
+  }
+  
