@@ -169,7 +169,7 @@
     border-style: solid;
     border-radius: 16px;
     padding: 24px;
-    background-image: url("./assets/quote-bg.png");
+    background-image: url("/assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-position-x: 24px;
